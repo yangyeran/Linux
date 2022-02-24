@@ -54,9 +54,3 @@
   * chmod o(改的是其他人)+/-   file_name
   * 可以连着修改的例如：chmod u+rwx,g+rwx,o+rwx file_name
   * chmod a(代表all就是所有的都一起加) +/- file_name 
-* 
-
-
-
-
-
