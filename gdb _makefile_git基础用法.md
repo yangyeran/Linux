@@ -86,3 +86,31 @@
 
   ![image-20220304123318856](C:\Users\yangyr0206\AppData\Roaming\Typora\typora-user-images\image-20220304123318856.png)
 
+#### 三. git
+
+* 使用之前先查看有没有安装git，如果没有使用**sudo yum install git**安装git
+
+* 首先是gitee创建库，然后复制库的http链接
+
+  * readme 类似于说明书
+
+  * 复制好链接之后到linux中输入：**git clone https://gitee.com/linux-learning.git**(链接粘贴就好了)，这样库中就会多一个文件![image-20220305100027483](C:\Users\yangyr0206\AppData\Roaming\Typora\typora-user-images\image-20220305100027483.png)
+
+    ![image-20220305100439162](C:\Users\yangyr0206\AppData\Roaming\Typora\typora-user-images\image-20220305100439162.png)
+
+* 接着是上传代码
+
+  * **git status**可以查看本地代码和本地仓库的对应关系![image-20220305101324836](C:\Users\yangyr0206\AppData\Roaming\Typora\typora-user-images\image-20220305101324836.png)
+
+  * git add file_name(文件名)
+
+    ![image-20220305101648808](C:\Users\yangyr0206\AppData\Roaming\Typora\typora-user-images\image-20220305101648808.png)
+
+  * git commit -m "日志信息"
+
+    ![image-20220305102131169](C:\Users\yangyr0206\AppData\Roaming\Typora\typora-user-images\image-20220305102131169.png)
+
+  * 之后直接git push 就好
+
+* 如果第一次传需要输入**git config user.email "写自己的邮箱"**和**git config user.name "xifeng"**(""里面写自己的用户名)
+
